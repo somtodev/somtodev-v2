@@ -1,0 +1,34 @@
+[
+  {
+    "toolName": "Javascript",
+    "icon": "https://cdn.simpleicons.org/Javascript"
+  },
+  {
+    "toolName": "Node.js",
+    "icon": "https://cdn.simpleicons.org/Node.js"
+  },
+  {
+    "toolName": "Python",
+    "icon": "https://cdn.simpleicons.org/Python"
+  },
+  {
+    "toolName": "MongoDB",
+    "icon": "https://cdn.simpleicons.org/MongoDB"
+  },
+  {
+    "toolName": "Tailwindcss",
+    "icon": "https://cdn.simpleicons.org/TailwindCSS"
+  },
+  {
+    "toolName": "Git",
+    "icon": "https://cdn.simpleicons.org/Git"
+  },
+  {
+    "toolName": "Angular.js",
+    "icon": "https://cdn.simpleicons.org/angularjs"
+  },
+  {
+    "toolName": "React",
+    "icon": "https://cdn.simpleicons.org/React"
+  }
+]

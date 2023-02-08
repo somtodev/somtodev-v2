@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;200;300;400;500;600;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;500;600;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap);
+
+:root {
+    --highlight-color: #eef3ec;
+    --primary-color: #bac3b8;
+    --secondary-color: #faffe4;
+    --faded-color: #5e635e;
+    --bg-color: #141414;
+    --font: #6D6D6D;
+    --header: 'Space Mono', monospace;
+    --medium: 968px;
+    --normal: .24em;
+}
+
+* {
+    font-family: 'Manrope', sans-serif;
+    user-select: none;
+    cursor: none;
+
+}
+
+body {
+    background-color: var(--bg-color) !important;
+    color: var(--font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text-space {
+    font-family: 'Space Grotesk', sans-serif !important;
+}
+
+#nav {
+    position: fixed;
+}
+
+.active__links {
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2em;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    backdrop-filter: blur(1em);
+    background-color: #181818;
+}
+
+.active__links a {
+    font-size: 1.25em;
+}
+
+.active__links #cancel {
+    position: absolute;
+    left: 90%;
+    top: 0%;
+    fill: #faffe4;
+}
+
+/* Cursor */
+.cursor {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #5e635e;
+    border: .1px solid #eef3ec;
+    opacity: .3;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width .3s, height .3s, opacity .3s;
+    z-index: 999;
+}
+
+.custom-bar {
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .active__links {
+        width: 0 !important;
+        height: 0 !important;
+        display: none !important;
+        position: relative;
+    }
+
+    .active__link a {
+        display: flex;
+    }
+}

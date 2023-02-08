@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Ripper",
+    "description": "Rip out those obnoxious comments in your code with just one package(#ripper)",
+    "url": "",
+    "github_url": "https://www.github.com/Leroynnalue/ripper",
+    "status": "Completed"
+  },
+  {
+    "name": "Daily Routine V2",
+    "description": "A tool to help you check all your daily activities and help maximize your productivity.",
+    "url": "http://daily-routine-v2.netlify.app/",
+    "github_url": "https://www.github.com/Leroynnalue/daily-routine-v2",
+    "status": "Completed"
+  },
+  {
+    "name": "Key Gen",
+    "description": "Generate random keys with key-gen for your jwt secrets or any encryption keys",
+    "url": "https://alienxr-keygen.netlify.app/",
+    "github_url": "https://www.github.com/Leroynnalue/key-gen",
+    "status": "Completed"
+  },
+  {
+    "name": "Snake",
+    "description": "An endless snake-like game that help chase boredom away while thinking what task to do. Because, why not?",
+    "url": "https://alienxrsnake.netlify.app/",
+    "github_url": "https://github.com/Leroynnalue/snake",
+    "status": "Completed"
+  },
+  {
+    "name": "Rest Countries",
+    "description": "Know more about countries.......",
+    "url": "https://alienxr-restcountriesapi.netlify.app/",
+    "github_url": "https://www.github.com/Leroynnalue/rest-countries-api-with-color-theme-switcher-master",
+    "status": "Completed"
+  },
+  {
+    "name": "Thoughts",
+    "description": "Journal with Thoughts 😊, Thoughts is a web app which allows your journal about your past experiences or future plans",
+    "url": "",
+    "github_url": "https://github.com/Leroynnalue/thoughts",
+    "status": "Archived"
+  }
+]

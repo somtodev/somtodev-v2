@@ -1,0 +1,34 @@
+{
+  "blogPost": [
+    {
+      "date": "August 20,2022",
+      "title": "Lorem Ispum",
+      "context": "Lorem Ispum",
+      "readTime": "6 mins"
+    },
+    {
+      "date": "August 20,2022",
+      "title": "Lorem Ispum",
+      "context": "Lorem Ispum",
+      "readTime": "6 mins"
+    },
+    {
+      "date": "August 20,2022",
+      "title": "Lorem Ispum",
+      "context": "Lorem Ispum",
+      "readTime": "6 mins"
+    },
+    {
+      "date": "August 20,2022",
+      "title": "Lorem Ispum",
+      "context": "Lorem Ispum",
+      "readTime": "6 mins"
+    },
+    {
+      "date": "August 20,2022",
+      "title": "Lorem Ispum",
+      "context": "Lorem Ispum",
+      "readTime": "6 mins"
+    }
+  ]
+}
