@@ -7,7 +7,7 @@ export default function Attribution() {
         <footer
             class="w-full flex flex-col lg:flex-row lg:items-center justify-center lg:justify-around gap-y-6 my-[5vh]">
             <div class="flex justify-evenly items-center lg:gap-x-10 py-4">
-                <a href="https://twitter.com/leroydev_" target="_blank" rel="noopener noreferrer"
+                <a href="https://twitter.com/somtodev" target="_blank" rel="noopener noreferrer"
                     class="opacity-80 hover:text-white hover:opacity-100 transition-all"><svg stroke="currentColor"
                         fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="23" width="23"
                         xmlns="http://www.w3.org/2000/svg">
