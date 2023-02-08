@@ -1,8 +1,6 @@
 import React from 'react'
 
 export default function Attribution() {
-    const year = new Date().getFullYear()
-
     return (
         <footer
             class="w-full flex flex-col lg:flex-row lg:items-center justify-center lg:justify-around gap-y-6 my-[5vh]">
