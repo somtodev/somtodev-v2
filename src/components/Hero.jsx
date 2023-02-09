@@ -35,13 +35,10 @@ export default function Hero() {
                     </h1>
                 </section>
                 {/* Quote */}
-                <p class="max-w-md py-4 text-faded text-md normal-case">
-                    Whatever we humans conceive in our minds can be achieved! but for me I Need The <span
-                        class="font-bold">
-                        Holy Spirit
-                    </span>
-                    To
-                    lead me towards the right path.
+                <p class="my-2 py-4 text-faded text-md normal-case">
+                    <em>"Kill the boy, Jon Snow. Winter is almost upon us. Kill the boy and let the man be born."</em>
+                    <br />
+                    <span>~ George R.R Martin</span>
                 </p>
                 {/* Say Hi */}
                 <a rel="noreferrer" target="_blank" href={mailLink} className='flex'>
