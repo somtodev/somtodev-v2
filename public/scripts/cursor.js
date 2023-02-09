@@ -6,14 +6,10 @@ if (isMobile) {
     cursor.style.display = 'none'
 }
 
-document.addEventListener('mousemove', function (e) {
-    var x = e.clientX;
-    var y = e.clientY;
-});
+document.addEventListener('mousemove', function (axis) {
+    let x = axis.clientX;
+    let y = axis.clientY;
 
-document.addEventListener('mousemove', function (e) {
-    var x = e.clientX;
-    var y = e.clientY;
     cursor.style.left = x + 'px';
     cursor.style.top = y + 'px';
 });
