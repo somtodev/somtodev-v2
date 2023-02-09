@@ -24,7 +24,7 @@
     font-family: 'Manrope', sans-serif;
     user-select: none;
     cursor: none;
-
+    scroll-behavior: smooth !important;
 }
 
 body {
