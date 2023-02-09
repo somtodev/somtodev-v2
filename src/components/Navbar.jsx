@@ -14,6 +14,10 @@ export default function Navbar() {
         setOpen(!isOpen)
     }
 
+    const scrollTop = () => {
+        window.scrollTo(0, 0)
+    }
+
     return (
         <nav className='fixed top-6 w-5/6 flex justify-between items-center py-6 px-8 bg-bg-color bg-opacity-80 backdrop-blur-md drop-shadow-md-lg rounded-sm z-[99]'>
 
@@ -46,7 +50,9 @@ export default function Navbar() {
 
             <div className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-bg-color ${currentClass} md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center`}>
                 <ul className='flex flex-col md:flex-row md:mx-6 md:gap-4'>
-                    <NavbarLink linkName={'Home'} />
+                    <Link onClick={scrollTop}>
+                        <NavbarLink linkName={'Home'} />
+                    </Link>
                     <NavbarLink linkName={'About'} />
                     <NavbarLink linkName={'Tools'} />
                     <NavbarLink linkName={'Projects'} />
