@@ -8,7 +8,9 @@ import Tools from '../components/Tools'
 import Projects from '../components/Projects'
 import Attribution from '../components/Attribution'
 
+
 export default function Home() {
+
     return (
         <main className='w-5/6 mx-auto' data-scroll-section>
             <Navbar />
@@ -16,7 +18,7 @@ export default function Home() {
 
             {/* About */}
             <SectionHeader title={'About'} />
-            <SectionArticle writeup={`Hello, I'm Somtochukwu, a sixteen-year-old Software Engineering student at Aptech, currently on Mars. For the most part, I'm a guided-self-taught software developer. Ever since I discovered the concept of programming in secondary school, I tend to find myself drawn to tech and the idea of building the next big thing.I'm a front-end developer who looks forward to becoming a full-stack developer. I dive into wherever my passion blooms. Who knows, I might be the next best neurosurgeon. When I'm not hitting my keyboard for a better world, I'm probably watching a Turkish Series, Reading A Book, Playing Video Games or Sleeping.`} />
+            <SectionArticle writeup={`Hello, I'm Somtochukwu, a sixteen-year-old Software Engineering student at Aptech, currently on Mars. For the most part, I'm a guided-self-taught software developer. Ever since I discovered the concept of programming in secondary school, I tend to find myself drawn to tech and the idea of building the next big thing. I dive into wherever my passion blooms. Who knows, I might be the next best neurosurgeon. When I'm not hitting my keyboard for a better world, I'm probably watching a Turkish Series, Reading A Book, Playing Video Games or Sleeping.`} />
 
             {/* Recent Playlist */}
             <section className="py-[1em]">
@@ -37,12 +39,12 @@ export default function Home() {
 
             {/* Tools */}
             <SectionHeader title={'Tools'} />
-            <SectionArticle writeup={'I am a software engineering student with over a year of experience, creating projects that could enhance my problem solving skill and also increase my value as a software developer to my future clients.'} />
+            <SectionArticle writeup={'While learning and developing, I have used and still use a few tools and languages. Below is a list of some of them.'} />
             <Tools />
 
             {/* Tools */}
             <SectionHeader title={'Projects'} />
-            <SectionArticle writeup={'I am a software engineering student with over a year of experience, creating projects that could enhance my problem solving skill and also increase my value as a software developer to my future clients.'} />
+            <SectionArticle writeup={`In action to build things, I consider intriguing. Come back in a year and be marvelled. Here are a couple of projects, you can find other random things I build on my GitHub page (** that if they aren't hidden **).`} />
             <Projects />
 
             {/* Attribution */}
