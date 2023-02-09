@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function ProjectCard({ project }) {
     const FinishedProject = project.status === "Completed"
+    const hasWebsiteUrl = project.url !== ""
+    const hasGithubUrl = project.github_url !== ""
 
     return (
         <div
@@ -13,14 +15,18 @@ export default function ProjectCard({ project }) {
                 {
                     FinishedProject ?
                         <>
-                            <a href={project.github} target="_blank" rel="noreferrer noopener"
-                                className="flex items-center gap-2 hover:text-primary hover:opacity-75">
-                                <p>GitHub</p>
-                            </a>
-                            <a href={project.url} target="_blank" rel="noreferrer noopener"
-                                className="flex items-center gap-1 hover:text-primary hover:opacity-75">
-                                <p>Website</p>
-                            </a>
+                            {
+                                hasGithubUrl ? <a href={project.github_url} target="_blank" rel="noreferrer noopener"
+                                    className="flex items-center gap-2 hover:text-primary hover:opacity-75">
+                                    <p>GitHub</p>
+                                </a> : ''
+                            }
+                            {
+                                hasWebsiteUrl ? <a href={project.url} target="_blank" rel="noreferrer noopener"
+                                    className="flex items-center gap-1 hover:text-primary hover:opacity-75">
+                                    <p>Website</p>
+                                </a> : ''
+                            }
                         </>
                         : <span className='text-faded'>{project.status}</span>
                 }
