@@ -14,7 +14,7 @@ export default function Attribution() {
                         </path>
                     </svg>
                 </a>
-                <a href="https://github.com/Leroynnalue" target="_blank" rel="noopener noreferrer"
+                <a href="https://github.com/somtodev" target="_blank" rel="noopener noreferrer"
                     class="opacity-80 hover:text-white hover:opacity-100 transition-all"><svg stroke="currentColor"
                         fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="23" width="23"
                         xmlns="http://www.w3.org/2000/svg">
