@@ -7,13 +7,6 @@
     "status": "Completed"
   },
   {
-    "name": "Cruncher",
-    "description": "Download social media videos from YouTube, SoundCloud, Facebook, Twitter, Instagram, TikTok, Vimeo, Dailymotion, VK, or AOL. ",
-    "url": "http://cruncher-app.netlify.app/",
-    "github_url": "https://www.github.com/Leroynnalue/cruncher",
-    "status": "Completed"
-  },
-  {
     "name": "Racy",
     "description": "Minimal chat app where users could connect to a text-based chat room and talk to other logged-in users. Just like in the 1990's.",
     "url": "http://racy.onrender.com/",
